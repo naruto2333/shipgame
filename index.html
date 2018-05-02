@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>objk</title>
+</head>
+<body>
+  <script>
+    var audi = {
+      make: 'audi',
+      model:'A6',
+      year:2016,
+      color:'black',
+      passengers:4,
+      convertible:false,
+      mileage:500,
+      drive: function () {
+        alert("zoom zoom")
+      },
+      setcolor : function(c){
+        this.color = c;
+      },
+      getcolor:function(){
+        return this.color;
+      }
+    }
+    document.write(audi.getcolor() + "<br>");
+    audi.setcolor('golden');
+    document.write(audi.getcolor() +"<br>");
+  </script>
+</body>
+</html>
