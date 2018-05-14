@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battleship</title>
+  <style>
+    body{
+      background-color: black;
+    }
+    div#board{
+      position: relative;
+      width: 1024px;
+      height: 863px;
+      margin:auto;
+      background: url("board.jpg") no-repeat;
+    }
+  </style>
+</head>
+  <body>
+    <div id="board">
+      <table>
+        <tr>
+          <td id="00"></td><td id="01"></td><td id="02"></td>
+          <td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td>
+        </tr>
+        <tr>
+          <td id="10"></td><td id="11"></td><td id="12"></td>
+          <td id="13"></td><td id="14"></td><td id="15"></td><td id="16"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="battleship.js"></script>
+  </body>
+</html>
